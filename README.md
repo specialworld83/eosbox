@@ -173,3 +173,8 @@ in chroot and prevent pacman from restoring ```/usr/bin/pkexec``` by editing ```
 
 #### No sudo password in chroot by default.
 You could use ```sudo``` in eosbox, but you'll have no way to enter the password when doing e.g. ```eosbox sudo pacman -Syu```. also you could enter the password if you do ```eosbox -e < <(echo $COMMAND)```, but that would disable stdin entirely during $COMMAND.
+#### Screenshot
+![ScreenShot](https://github.com/specialworld83/eosbox/blob/main/screenshot/neofetch.png)
+![ScreenShot](https://github.com/specialworld83/eosbox/blob/main/screenshot/yay.png)
+![ScreenShot](https://github.com/specialworld83/eosbox/blob/main/screenshot/build.png)
+![ScreenShot](https://github.com/specialworld83/eosbox/blob/main/screenshot/fedora_release.png)
