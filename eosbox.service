@@ -1,0 +1,11 @@
+[Unit]
+Description=EOSbox init
+PartOf=multi-user.target
+
+[Service]
+ExecStart=/usr/local/bin/eosbox --mount
+Type=oneshot
+User=root
+
+[Install]
+WantedBy=multi-user.target 
