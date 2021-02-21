@@ -14,7 +14,7 @@ msg "Initializing pacman keyrings..."
 pacman-key --init
 pacman-key --populate archlinux
 msg "Installing essential packages..."
-pacman -Syu base base-devel xorg pulseaudio nano wget lsb-release neofetch --noconfirm
+pacman -Syu base base-devel xorg pulseaudio nano wget lsb-release neofetch noto-fonts ttf-dejavu --noconfirm
 msg "Installing EOS package and keyring..."
 wget https://mirror.linux.pizza/endeavouros/repo/endeavouros/x86_64/endeavouros-keyring-1-5-any.pkg.tar.zst 
 wget https://mirror.linux.pizza/endeavouros/repo/endeavouros/x86_64/eos-hooks-1.4.1-1-any.pkg.tar.zst
